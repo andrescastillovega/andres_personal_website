@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Andres Castillo</title>
 </head>
 
 <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
     <!-- bootstrap icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
 
     <!-- D3.js -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
@@ -21,83 +21,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
 
-<style>
-  /* ---- reset ---- */
-
-body {
-  margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-}
-
-/* ---- particles.js container ---- */
-
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #ffffff;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-/* New mask style */
-.mask {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to top right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.9) 30%, rgba(255, 255, 255, 1) 50%);
-  z-index: 10; /* Ensures the mask is above the particles */
-}
-
-.container-fluid {
-  z-index: 20;
-  position: relative;
-}
-/* ---- stats.js ---- */
-
-.count-particles{
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-}
-
-.js-count-particles{
-  font-size: 1.1em;
-}
-
-#stats,
-.count-particles{
-  -webkit-user-select: none;
-}
-
-#stats{
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-
-.count-particles{
-  border-radius: 0 0 3px 3px;
-}
-</style>
+    <!-- Particles CSS -->
+    <link rel="stylesheet" href="assets/particles/particles.css">
 
 <body>
   
@@ -120,7 +45,10 @@ canvas {
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" aria-current="page" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">CV</a>
@@ -137,199 +65,50 @@ canvas {
   </div>
 
   <div class="row content-row">
-    <div class="col-sm-4">
-      <div class="background-network-container">
-        <svg class="background-network-chart" id="background-network"></svg>
-      </div>
+    <div class="col-sm-3">
     </div>
 
     <div class="col-sm-6">
       <div class="row">
         <div class="welcome-container">
           <p>Hello!✌️</p>
-          <p>I am a Toronto-based data scientist and a graduate student at the University of Toronto. 
-            I am working as a research assistant at the <a target="_blank" href="https://tmg.utoronto.ca/">Travel Modelling Group - TMG</a> under the supervision of 
-            <a target="_blank" href="https://civmin.utoronto.ca/home/about-us/directory/professors/eric-miller/">Prof. Eric Miller</a>. Before grad school,
-            I worked as a Senior Consultant at <a target="_blank" href="https://www.steergroup.com/">Steer</a>, an international consulting firm focused on the transportation sector.
+          <p>I am a Toronto-based data scientist and a graduate student at the University of Toronto. I am working as a research assistant
+            at the <a target="_blank" href="https://tmg.utoronto.ca/">Travel Modelling Group - TMG</a> under the supervision of 
+            <a target="_blank" href="https://civmin.utoronto.ca/home/about-us/directory/professors/eric-miller/">Prof. Eric Miller</a>. 
+            Before grad school, I worked as a Senior Consultant at <a target="_blank" href="https://www.steergroup.com/">Steer</a>, 
+            an international consulting firm focused on the transportation sector.
             <br>
             <br>
-            My current interests include machine learning and applied probability to solve complex problems. I am convinced that technology is a powerful tool to 
-            improve the quality of life in the cities, so I am passionate about using my skills to make a positive impact in the world.
+            My current interests include machine learning and probabilistic programming to solve complex problems such as urban congestion.
+            I am convinced that technology is a powerful tool to improve the quality of life in the cities, so I am passionate about using 
+            my skills to make a positive impact in the world.
             <br>
             <br>
-            I'm a proudly Colombian engineer 🇨🇴. I attended the <i>Universidad Nacional de Colombia</i> and my background is in Civil Engineering. Besides work, I like to spend time reading,
-            walking my dog, playing tennis and learning new things.
+            I am currently learning about Open-Source LLMs, the Transformer architecture, 
+            and the JAX library.
+            <br>
+            <br>
+            Besides work, I like to spend time reading, walking my dog, and learning new things (including playing tennis). Also, a big fan of maps and typography.
           </p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-1"></div>
-        <div class="col-sm-10" align="center">
-          <a target="_blank" href="https://www.linkedin.com/in/andres-danilo-castillo-vega/"><i class="bi bi-linkedin" style="font-size: 1.8rem; color: #393939; margin: 25px;"></i></a>
-          <a target="_blank" href="https://github.com/andrescastillovega"><i class="bi bi-github" style="font-size: 1.8rem; color: #393939; margin: 25px;"></i></a>          
-        </div>
-        <div class="col-sm-1"></div>
-      </div>
-
-
-      
     </div>
 
-    <div class="col-sm-2">
+    <div class="col-sm-3">
     </div>
   </div>
 
-  <div class="container-fluid">
-
-  </div>
   <div class="row footer-row">
-    <div class="footer-container">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10" align="center">
+      <a target="_blank" href="https://www.linkedin.com/in/andres-danilo-castillo-vega/"><i class="bi bi-linkedin" style="font-size: 1.8rem; color: #393939; margin: 25px;"></i></a>
+      <a target="_blank" href="https://github.com/andrescastillovega"><i class="bi bi-github" style="font-size: 1.8rem; color: #393939; margin: 25px;"></i></a>          
+      <a target="_blank" href="https://twitter.com/a_castillo_v"><i class="bi bi-twitter-x" style="font-size: 1.8rem; color: #393939; margin: 25px;"></i></a>
     </div>
+    <div class="col-sm-1"></div>
   </div>
-</div>
-
-
-<!-- stats - count particles
-<div class="count-particles">
-  <span class="js-count-particles">--</span> particles
-</div> -->
-
-<!-- particles.js lib (JavaScript CodePen settings): https://github.com/VincentGarreau/particles.js -->
-  
+</div>  
 </body>
-<script>
-  /* ---- particles.js config ---- */
-
-particlesJS("particles-js", {
-  "particles": {
-    "number": {
-      "value": 100,
-      "density": {
-        "enable": true,
-        "value_area": 200
-      }
-    },
-    "color": {
-      "value": "#000000"
-    },
-    "shape": {
-      "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
-      "image": {
-        "src": "img/github.svg",
-        "width": 100,
-        "height": 100
-      }
-    },
-    "opacity": {
-      "value": 0.7,
-      "random": false,
-      "anim": {
-        "enable": false,
-        "speed": 1,
-        "opacity_min": 0.1,
-        "sync": false
-      }
-    },
-    "size": {
-      "value": 3,
-      "random": true,
-      "anim": {
-        "enable": false,
-        "speed": 30,
-        "size_min": 0.1,
-        "sync": false
-      }
-    },
-    "line_linked": {
-      "enable": true,
-      "distance": 80,
-      "color": "#000000",
-      "opacity": 0.2,
-      "width": 1
-    },
-    "move": {
-      "enable": true,
-      "speed": 4,
-      "direction": "none",
-      "random": false,
-      "straight": false,
-      "out_mode": "out",
-      "bounce": true,
-      "attract": {
-        "enable": false,
-        "rotateX": 600,
-        "rotateY": 1200
-      }
-    }
-  },
-  "interactivity": {
-    "detect_on": "canvas",
-    "events": {
-      "onhover": {
-        "enable": false,
-        "mode": "grab"
-      },
-      "onclick": {
-        "enable": false,
-        "mode": "push"
-      },
-      "resize": true
-    },
-    "modes": {
-      "grab": {
-        "distance": 140,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
-      "bubble": {
-        "distance": 400,
-        "size": 40,
-        "duration": 2,
-        "opacity": 8,
-        "speed": 3
-      },
-      "repulse": {
-        "distance": 200,
-        "duration": 0.4
-      },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
-    }
-  },
-  "retina_detect": true
-});
-
-
-/* ---- stats.js config ---- */
-
-var count_particles, stats, update;
-stats = new Stats;
-stats.setMode(0);
-stats.domElement.style.position = 'absolute';
-stats.domElement.style.left = '0px';
-stats.domElement.style.top = '0px';
-document.body.appendChild(stats.domElement);
-count_particles = document.querySelector('.js-count-particles');
-update = function() {
-  stats.begin();
-  stats.end();
-  if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-    count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-  }
-  requestAnimationFrame(update);
-};
-requestAnimationFrame(update);
-</script>
+<!-- particles.js config file -->
+<script src="assets/particles/config.js"></script>
 </html>
