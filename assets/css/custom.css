@@ -112,8 +112,11 @@ body {
     height: 100vh;
 } */
 
-@media (max-width: 992px) {
+@media (max-width: 760px) {
     /* CSS code for mobile devices */
+    .navbar-row {
+        height: 5vh;
+    }
     .navbar {
       background-color: rgba(256, 256, 256, 1) !important;
     }
