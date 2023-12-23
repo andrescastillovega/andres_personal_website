@@ -115,7 +115,7 @@ body {
 @media (max-width: 760px) {
     /* CSS code for mobile devices */
     .navbar-row {
-        height: 5vh;
+        height: 10vh;
     }
     .navbar {
       background-color: rgba(256, 256, 256, 1) !important;
