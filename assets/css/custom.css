@@ -182,6 +182,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  padding-top: 70px;
 }
 
 .content-row {
@@ -195,8 +196,8 @@ body {
 .welcome-container {
   text-align: left;
   color: #393939;
-  font-size: 14pt;
-  line-height: 1.1;
+  font-size: x-large;
+  line-height: 1.2;
   font-family: Metropolis-Light;
   background-color: rgba(256, 256, 256, 0.7);
   border-radius: 10px;
@@ -211,7 +212,7 @@ body {
 
 @media (max-width: 768px) {
   .welcome-container {
-    font-size: 11pt;
+    font-size: medium;
     line-height: 1.1;
   }
 }
@@ -223,11 +224,11 @@ body {
 .footer-row {
   z-index: 4; /* Above particles and mask */
   text-align: center;
-  padding: calc(10pt + 5vh);
+  padding: 10px;
 }
 
 @media (max-width: 768px) {
   .footer-row {
-    padding: calc(5pt);
+    padding: 5px;
   }  
 }
