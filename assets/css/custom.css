@@ -195,8 +195,8 @@ body {
 .welcome-container {
   text-align: left;
   color: #393939;
-  font-size: calc(14pt);
-  line-height: 1.5;
+  font-size: 14pt;
+  line-height: 1.1;
   font-family: Metropolis-Light;
   background-color: rgba(256, 256, 256, 0.7);
   border-radius: 10px;
@@ -211,7 +211,7 @@ body {
 
 @media (max-width: 768px) {
   .welcome-container {
-    font-size: calc(11pt);
+    font-size: 11pt;
     line-height: 1.1;
   }
 }
