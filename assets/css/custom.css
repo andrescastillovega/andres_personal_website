@@ -23,10 +23,10 @@ html {
 }
 
 body {
-  height: 100%;
+  height: 95%;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Full viewport height */
+  min-height: 95vh; /* Full viewport height */
   margin: 0;
 }
 
@@ -195,7 +195,7 @@ body {
 .welcome-container {
   text-align: left;
   color: #393939;
-  font-size: calc(10pt + 0.4vw);
+  font-size: calc(10pt + 0.2vw);
   line-height: 1.5;
   font-family: Metropolis-Light;
   background-color: rgba(256, 256, 256, 0.7);
@@ -228,6 +228,6 @@ body {
 
 @media (max-width: 768px) {
   .footer-row {
-    padding: calc(5pt + 1vh);
+    padding: calc(5pt);
   }  
 }
