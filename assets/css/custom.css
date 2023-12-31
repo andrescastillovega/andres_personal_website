@@ -221,6 +221,6 @@ body {
 
 @media (max-width: 768px) {
   .footer-row {
-    padding: calc(10pt + 1vh);
+    padding: calc(5pt + 1vh);
   }  
 }
