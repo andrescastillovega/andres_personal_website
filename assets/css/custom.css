@@ -13,6 +13,28 @@
     src: url(../fonts/Metropolis-Light.woff2);
 }
 
+@font-face {
+  font-family: Source-Serif-SemiBold;
+  src: url(../fonts/SourceSerif4-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Source-Serif-Medium;
+  src: url(../fonts/SourceSerif4-Medium.ttf);
+}
+
+@font-face {
+  font-family: Source-Serif-Regular;
+  src: url(../fonts/SourceSerif4-Regular.ttf);
+}
+
+@font-face {
+  font-family: Source-Serif-Light;
+  src: url(../fonts/SourceSerif4-Light.ttf);
+}
+
+
+
 /* ------------------------------------ */
 /*            General styles            */
 /* ------------------------------------ */
@@ -86,14 +108,14 @@ body {
 }
 
 .navbar-brand {
-  font-family: Metropolis-Medium;
-  font-size: 1.8rem;
+  font-family: Source-Serif-SemiBold;
+  font-size: 2.0rem;
   color: #393939;
 }
 
 .nav-item {
-  font-family: Metropolis-Medium;
-  font-size: 1.2rem;
+  font-family: Source-Serif-Medium;
+  font-size: 1.5rem;
   color: #393939;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
@@ -210,9 +232,9 @@ body {
 .welcome-container {
   text-align: left;
   color: #393939;
-  font-size: 1.5rem;
-  line-height: 1.2;
-  font-family: Metropolis-Light;
+  font-size: 1.4rem;
+  line-height: 1.3;
+  font-family: Source-Serif-Light;
   background-color: rgba(256, 256, 256, 0.7);
   border-radius: 10px;
 }
