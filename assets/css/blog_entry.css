@@ -1,6 +1,78 @@
- h1 {
-    font-family: Sans-Source-Regular;
+@font-face {
+    font-family: Source-Serif-ExtraBold;
+    src: url(../fonts/SourceSerif4-ExtraBold.ttf);
+  }
+
+@font-face {
+    font-family: Source-Serif-Bold;
+    src: url(../fonts/SourceSerif4-Bold.ttf);
+  }
+
+@font-face {
+    font-family: Source-Serif-SemiBold;
+    src: url(../fonts/SourceSerif4-SemiBold.ttf);
+  }
+  
+@font-face {
+    font-family: Source-Serif-Medium;
+    src: url(../fonts/SourceSerif4-Medium.ttf);
+  }
+
+@font-face {
+    font-family: Source-Serif-Regular;
+    src: url(../fonts/SourceSerif4-Regular.ttf);
+  }
+
+@font-face {
+    font-family: Source-Serif-Light;
+    src: url(../fonts/SourceSerif4-Light.ttf);
+  }
+
+@font-face {
+    font-family: Source-Serif-Light;
+    src: url(../fonts/SourceSerif4-LightItalic.ttf);
+  }
+  
+h1 {
+    font-family: Source-Serif-Regular;
     font-size: 1.8rem !important;
     color: #393939;
     padding-top: 50px !important;
+    border-bottom: none !important;
+    margin-bottom: 5px !important;
 }
+
+h2 {
+    font-family: Source-Serif-Regular;
+    font-size: 1.5rem !important;
+    border-bottom: none !important;
+
+}
+
+h5 {
+    font-family: Source-Serif-Light;
+    font-size: 0.9rem !important;
+    font-style: italic;
+    color: #393939;
+    background-color: #a5a5a53f;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: inline-block;
+    margin-top: 5px !important;
+    margin-bottom: 50px !important;
+}
+
+p {
+    font-family: Source-Serif-Regular;
+}
+
+a {
+    color: #393939 !important;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+  
+a:hover {
+    background-color: #a5a5a53f !important;
+    text-decoration: none !important;
+  }

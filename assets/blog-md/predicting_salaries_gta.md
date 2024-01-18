@@ -1,6 +1,19 @@
 # Predicting salaries in the Greater Toronto Area: A Bayesian Approach
+##### 15 min read
 
-> Ridiculously simple zero-config markdown displayer
+In this post, I present the main results of my master thesis in which I explore the application of bayesian inference for predicting salaries in the Greater Toronto Area (GTA). This work is designed as a component of the <a href="https://uttri.utoronto.ca/files/2018/07/ILUTE-Integrated-Land-Use-Transportation-and-Environment-Model-Reboot.pdf" target="_blank">ILUTE Framework</a> (Integrated Land-Use, Transportation, and Environment), an Agent‑Based simulation model for evaluating land use and transport interactions in urban areas.
+
+## tl;dr    
+Labour markets and transportation systems are at the core of urban life. Attributes such as
+residential and work locations, household income, and auto ownership are closely related to
+the interactions in the labour market. Since salaries are a key component of these interac-
+tions, predicting salaries becomes an important task for integrating labour market outcomes
+into travel behaviour modelling. Using a data-driven approach, we estimate a Bayesian hi-
+erarchical model to predict salary distributions in the Greater Toronto Area. The results of
+this work demonstrate that this approach provides better estimates at both the aggregated
+and disaggregated levels and generates more robust predictions by producing probability dis-
+tributions instead of point estimates. This characteristic is key for using this model in an
+urban simulation setting such as the ILUTE framework.
 
 ```Python
 print("Hello World!")
