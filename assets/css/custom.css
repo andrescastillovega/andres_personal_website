@@ -78,7 +78,7 @@ body {
 }
 
 .blog-mask {
-  position: absolute;
+  position: fixed !important;
   top: 0;
   left: 0;
   width: 100%;
@@ -265,34 +265,39 @@ body {
   color: #393939;
   font-size: 1.5rem;
   line-height: 1.2;
-  font-family: Metropolis-Light;
+  font-family: Sans-Source-Light;
   background-color: rgba(256, 256, 256, 0.7);
   border-radius: 10px;
 }
 
 .blog-container a {
   color: #393939;
-  font-weight: bold;
-  text-decoration-thickness: 1.2px;
-  text-underline-offset: 3px;
+  text-decoration: none;
+}
+
+.blog-container a:hover {
+  background-color: #a5a5a53f;
+  text-decoration: none;
+  
 }
 
 .blog-container h1 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-family: Sans-Source-ExtraBold;
+  font-size: 2.0rem;
+  font-weight: 900;
   line-height: 2.2;
   padding-top: 30px;
 }
 
 .blog-container h2 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: medium;
   line-height: 1.0;
   display: block;
 }
 
 .blog-container h3 {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: medium;
   line-height: 1.0;
   color: #a0a0a0;
