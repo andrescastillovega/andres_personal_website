@@ -64,6 +64,7 @@ h5 {
 
 p {
     font-family: Source-Serif-Regular;
+    font-size: 1.2rem !important;
 }
 
 a {
@@ -73,6 +74,25 @@ a {
 }
   
 a:hover {
-    background-color: #a5a5a53f !important;
-    text-decoration: none !important;
-  }
+  background-color: #a5a5a53f !important;
+  text-decoration: none !important;
+}
+
+img {
+  width: 600px !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px !important;
+}
+
+figcaption {
+  font-family: Source-Serif-Regular;
+  font-size: 1.2rem !important;
+  font-style: italic;
+  color: #393939 !important;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px !important;
+}
+  
