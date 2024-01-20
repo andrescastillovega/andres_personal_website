@@ -49,6 +49,13 @@ h2 {
 
 }
 
+h3 {
+  font-family: Source-Serif-Regular;
+  font-size: 1.2rem !important;
+  border-bottom: none !important;
+
+}
+
 h5 {
     font-family: Source-Serif-Light;
     font-size: 0.9rem !important;
@@ -62,7 +69,7 @@ h5 {
     margin-bottom: 50px !important;
 }
 
-p {
+p, ul {
     font-family: Source-Serif-Regular;
     font-size: 1.2rem !important;
 }
@@ -79,7 +86,7 @@ a:hover {
 }
 
 img {
-  width: 600px !important;
+  width: 500px !important;
   display: block;
   margin-left: auto;
   margin-right: auto;
