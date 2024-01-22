@@ -32,6 +32,11 @@
     font-family: Source-Serif-Light;
     src: url(../fonts/SourceSerif4-LightItalic.ttf);
   }
+
+-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
   
 h1 {
     font-family: Source-Serif-Regular;
@@ -69,18 +74,18 @@ h5 {
     margin-bottom: 50px !important;
 }
 
-p, ul {
+p, ul, ol {
     font-family: Source-Serif-Regular;
     font-size: 1.2rem !important;
 }
 
-a {
+.markdown-body a {
     color: #393939 !important;
     font-weight: bold;
     text-decoration: none !important;
 }
   
-a:hover {
+.markdown-body a:hover {
   background-color: #a5a5a53f !important;
   text-decoration: none !important;
 }
@@ -94,12 +99,15 @@ img {
 }
 
 figcaption {
-  font-family: Source-Serif-Regular;
-  font-size: 1.2rem !important;
+  font-family: Source-Serif-Light;
+  font-size: 1.0rem !important;
   font-style: italic;
-  color: #393939 !important;
+  color: #8d8d8d !important;
   font-weight: bold;
   text-align: center;
-  margin-top: 10px !important;
+  margin-top: 12px !important;
 }
-  
+
+.footer-row {
+  margin-top: 50px !important;
+}
