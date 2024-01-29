@@ -199,5 +199,5 @@ Given the stochastic nature of simulations, the use of a random component seems 
 Besides the model structure, the application of the Bayesian inference framework allows to extract more information from the data by producing probability distributions instead of point estimates. This is more evident when modelling out-of-sample salary distributions at both the aggregated and disaggregated level with high accuracy and a good bias-variance balance, which demonstrates its potential to produce robust estimations. However, these advantages come with a cost in terms of computational power.
 
 ## Acknowledgments
-* <a href="https://civmin.utoronto.ca/home/about-us/directory/professors/eric-miller/" target="_blank">Prof. Eric Miller</a> who guide and support this work.
+* <a href="https://civmin.utoronto.ca/home/about-us/directory/professors/eric-miller/" target="_blank">Prof. Eric Miller</a> for guiding and supporting this work.
 * <a href="https://www.colfuturo.org/for-international-universities/about-colfuturo" target="_blank">COLFUTURO</a> for providing the partial funding for my graduate studies.
