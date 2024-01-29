@@ -322,6 +322,25 @@ body {
   display: block;
 }
 
+.blog-entry {
+  margin-top: 30px !important;
+  margin-bottom: 0px !important;
+}
+
+.blog-categories p {
+  display: inline-block;
+  background-color: #393939;
+  border-radius: 10px;
+  margin: 1px;
+  padding: 5px 10px;
+  white-space: nowrap;
+  font-family: Source-Serif-Medium;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  line-height: 0.8;
+  color: #ffffff;
+}
+
 @media (max-width: 768px) {
   .welcome-container {
     font-size: 0.95rem;

@@ -102,7 +102,7 @@ This information sharing is achieved by setting a set of hyperpriors that define
   <img
   src="../../assets/images/blog_entries/predicting_salaries_gta/hierarchical_graph.png"
   alt="Hierarchical model graph"
-  style="width: 900px !important">\
+  style="width: 900px !important">
   <figcaption>Hierarchical model graph</figcaption>
 </figure>
 
