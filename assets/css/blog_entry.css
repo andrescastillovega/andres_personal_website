@@ -103,12 +103,12 @@ p, ul, ol {
 .markdown-body a {
     color: #393939 !important;
     font-weight: bold;
-    text-decoration: none !important;
+    text-decoration: underline dotted !important;
 }
   
 .markdown-body a:hover {
   background-color: #a5a5a53f !important;
-  text-decoration: none !important;
+  text-decoration: underline !important;
 }
 
 img {

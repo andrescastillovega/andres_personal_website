@@ -260,12 +260,12 @@ body {
   color: #393939;
   font-weight: bold;
   background: transparent;
-  text-decoration: none;
+  text-decoration: underline dotted;
 }
 
 .welcome-container a:hover {
   background-color: #a5a5a53f;
-  text-decoration: none;
+  text-decoration: underline;
   
 }
 
@@ -281,7 +281,7 @@ body {
   text-align: left;
   color: #393939;
   font-size: 1.5rem;
-  line-height: 1.2;
+  line-height: 1.1;
   font-family: Sans-Source-Light;
   background-color: rgba(256, 256, 256, 0.7);
   border-radius: 10px;
@@ -289,12 +289,12 @@ body {
 
 .blog-container a {
   color: #393939;
-  text-decoration: none;
+  text-decoration: underline dotted;
 }
 
 .blog-container a:hover {
   background-color: #a5a5a53f;
-  text-decoration: none;
+  text-decoration: underline;
   
 }
 
@@ -349,7 +349,7 @@ body {
 
   .blog-container {
     font-size: 0.95rem;
-    line-height: 1.1;
+    line-height: 1.0;
   }
 }
 
