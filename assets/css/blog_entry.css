@@ -129,6 +129,10 @@ figcaption {
   margin-top: 12px !important;
 }
 
+pre {
+  border-radius: 15px !important;
+}
+
 .footer-row {
   margin-top: 50px !important;
 }
