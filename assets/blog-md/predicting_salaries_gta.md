@@ -14,7 +14,7 @@ In terms of data structure, this relationship can be defined as *one-to-many*. O
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/hierarchical_structure.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/hierarchical_structure.png"
   alt="Hierarchical structure of labour markets">
   <figcaption>Hierarchical structure of labour markets</figcaption>
 </figure>
@@ -28,7 +28,7 @@ As expected, the salary distribution in the GTA is *positive* and *right-skewed*
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/salary_dist.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/salary_dist.png"
   alt="Salary distribution in the GTA between 1993 and 2011">
   <figcaption>Salary distribution in the GTA between 1993 and 2011</figcaption>
 </figure>
@@ -37,7 +37,7 @@ The literature suggests that a person's level of education is a key factor in de
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/salary_edu_gender.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/salary_edu_gender.png"
   alt="Salary distribution by education level and gender"
   style="width: 800px !important">
   <figcaption>Salary distribution by education level and gender</figcaption>
@@ -47,7 +47,7 @@ While education level is a significant factor in explaining salary variability, 
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/pairplot.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/pairplot.png"
   alt="Salaries by experience level, age, and tenure"
   style="width: 800px !important">
   <figcaption>Salaries by experience level, age, and tenure</figcaption>
@@ -57,7 +57,7 @@ When data is filtered by industry and occupation, the linear relationship betwee
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/salary_ind.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/salary_ind.png"
   alt="Salary distribution by several attributes in the Public Administration industry"
   style="width: 900px !important">
   <figcaption>Salary distribution by several attributes in the Public Administration industry</figcaption>
@@ -100,7 +100,7 @@ This information sharing is achieved by setting a set of hyperpriors that define
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/hierarchical_graph.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/hierarchical_graph.png"
   alt="Hierarchical model graph"
   style="width: 900px !important">
   <figcaption>Hierarchical model graph</figcaption>
@@ -112,7 +112,7 @@ After running the inference on the three model structures (pooled, no-pooled, an
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/model_structure_comparison.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/model_structure_comparison.png"
   alt="Model structure selection"
   style="width: 600px !important">
   <figcaption>Model structure selection</figcaption>
@@ -122,7 +122,7 @@ After running the inference on the three model structures (pooled, no-pooled, an
 
     <figure>
       <img
-        src="../../assets/images/blog_entries/predicting_salaries_gta/forward_sel.png"
+        src="./assets/images/blog_entries/predicting_salaries_gta/forward_sel.png"
         alt="Feature selection"
         style="width: 600px !important">
         <figcaption>Feature selection</figcaption>
@@ -136,7 +136,7 @@ Using the optimal model, the chart below shows a subset of the posterior distrib
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/trace_1.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/trace_1.png"
   alt="Posterior distribution for a subset of model parameters in some specific industries and occupations"
   style="width: 900px !important">
   <figcaption>Posterior distribution for a subset of model parameters in some specific industries and occupations</figcaption>
@@ -150,7 +150,7 @@ The following charts show a comparison between the true salary distribution and 
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/results_salary.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/results_salary.png"
   alt="Observed and predicted salary distribution for all individuals in the validation set (CAD 2023)"
   style="width: 600px !important">
   <figcaption>Observed and predicted salary distribution for all individuals in the validation set</figcaption>
@@ -158,7 +158,7 @@ The following charts show a comparison between the true salary distribution and 
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/results_salary_ind.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/results_salary_ind.png"
   alt="Observed and predicted salary distribution by Industry (CAD 2023)"
   style="width: 1000px !important; margin-top: 70px !important">
   <figcaption>Observed and predicted salary distribution by Industry (CAD 2023)</figcaption>
@@ -166,7 +166,7 @@ The following charts show a comparison between the true salary distribution and 
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/results_salary_occ.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/results_salary_occ.png"
   alt="Observed and predicted salary distribution by Occupation (CAD 2023)"
   style="width: 1000px !important; margin-top: 70px !important">
   <figcaption>Observed and predicted salary distribution by Occupation (CAD 2023)</figcaption>
@@ -182,7 +182,7 @@ workers.
 
 <figure>
   <img
-  src="../../assets/images/blog_entries/predicting_salaries_gta/workers.png"
+  src="./assets/images/blog_entries/predicting_salaries_gta/workers.png"
   alt="Disaggregated analysis of salary distribution for 15 random selected workers within the validation dataset"
   style="width: 1000px !important">
   <figcaption>Disaggregated analysis of salary distribution for 15 random selected workers within the validation dataset</figcaption>
