@@ -280,13 +280,12 @@ body {
   color: #393939;
   font-weight: bold;
   background: transparent;
-  text-decoration: underline dotted;
+  text-decoration: none;
 }
 
 .welcome-container a:hover {
   background-color: #a5a5a53f;
-  text-decoration: underline;
-  
+  text-decoration: none;
 }
 
 .blog-content-row {
@@ -309,13 +308,12 @@ body {
 
 .blog-container a {
   color: #393939;
-  text-decoration: underline dotted;
+  text-decoration: none;
 }
 
 .blog-container a:hover {
   background-color: #a5a5a53f;
-  text-decoration: underline;
-  
+  text-decoration: none;
 }
 
 .blog-container h1 {
