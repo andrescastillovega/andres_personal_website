@@ -133,6 +133,19 @@ pre {
   border-radius: 15px !important;
 }
 
+.d3-chart {
+  position: relative;
+  width: 100%;
+  margin: 20px auto;
+  min-height: 200px;
+}
+
+.d3-chart svg {
+  width: 100% !important;
+  display: block;
+  margin: 0 auto;
+}
+
 .footer-row {
   margin-top: 50px !important;
 }
